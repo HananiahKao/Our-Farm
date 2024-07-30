@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var MapImage = "Map3"
+    @State var MapImage = "Map"
     var places = placesObj().places
     @State var show = false
     @State var maxScreenLenghth = max(UIScreen.main.bounds.height,UIScreen.main.bounds.width)
