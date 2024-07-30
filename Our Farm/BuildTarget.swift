@@ -11,7 +11,7 @@ struct BuidingTarget: View {
     var Index : Int
     var body: some View {
         Image(systemName: "mappin")
-            .foregroundStyle([Color.red,Color.orange,Color.yellow][Index])
+            .foregroundStyle([Color.red,Color.orange,Color.yellow,Color.green,Color.blue,Color.purple,Color.mint][Index])
             .onTapGesture {
                 show = true
             }
