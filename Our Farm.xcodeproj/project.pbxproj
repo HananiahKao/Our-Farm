@@ -11,6 +11,10 @@
 		CB2486312C58A8C60006AD8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2486302C58A8C60006AD8E /* ContentView.swift */; };
 		CB2486332C58A8C80006AD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2486322C58A8C80006AD8E /* Assets.xcassets */; };
 		CB2486362C58A8C80006AD8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2486352C58A8C80006AD8E /* Preview Assets.xcassets */; };
+		CB24863D2C58A9AB0006AD8E /* BuildTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24863C2C58A9AB0006AD8E /* BuildTarget.swift */; };
+		CB24863F2C58A9D50006AD8E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24863E2C58A9D50006AD8E /* DetailView.swift */; };
+		CB2486412C58AA160006AD8E /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2486402C58AA160006AD8E /* Places.swift */; };
+		CB2486432C58AA770006AD8E /* ZoomableScrolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2486422C58AA770006AD8E /* ZoomableScrolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CB2486302C58A8C60006AD8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB2486322C58A8C80006AD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2486352C58A8C80006AD8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB24863C2C58A9AB0006AD8E /* BuildTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTarget.swift; sourceTree = "<group>"; };
+		CB24863E2C58A9D50006AD8E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CB2486402C58AA160006AD8E /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		CB2486422C58AA770006AD8E /* ZoomableScrolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableScrolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CB24862E2C58A8C60006AD8E /* Our_FarmApp.swift */,
 				CB2486302C58A8C60006AD8E /* ContentView.swift */,
+				CB2486422C58AA770006AD8E /* ZoomableScrolView.swift */,
+				CB24863C2C58A9AB0006AD8E /* BuildTarget.swift */,
+				CB24863E2C58A9D50006AD8E /* DetailView.swift */,
+				CB2486402C58AA160006AD8E /* Places.swift */,
 				CB2486322C58A8C80006AD8E /* Assets.xcassets */,
 				CB2486342C58A8C80006AD8E /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2486412C58AA160006AD8E /* Places.swift in Sources */,
 				CB2486312C58A8C60006AD8E /* ContentView.swift in Sources */,
+				CB24863F2C58A9D50006AD8E /* DetailView.swift in Sources */,
+				CB24863D2C58A9AB0006AD8E /* BuildTarget.swift in Sources */,
 				CB24862F2C58A8C60006AD8E /* Our_FarmApp.swift in Sources */,
+				CB2486432C58AA770006AD8E /* ZoomableScrolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Our Farm/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S5G23Y9SJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kao.hananiah.Our-Farm";
+				PRODUCT_BUNDLE_IDENTIFIER = "kao.hananiah.Our-Farm-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Our Farm/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S5G23Y9SJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kao.hananiah.Our-Farm";
+				PRODUCT_BUNDLE_IDENTIFIER = "kao.hananiah.Our-Farm-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
