@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var MapImage = "Map3"
+    var places = placesObj().places
+    @State var show = false
+    @State var maxScreenLenghth = max(UIScreen.main.bounds.height,UIScreen.main.bounds.width)
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZoomableScrollView{
+            ZStack{
+                Image(MapImage)
+                    .resizable()
+                    .frame(width: maxScreenLenghth, height: maxScreenLenghth*(810/1080), alignment: .center)
+                ForEach(places) { Place in
+                    BuidingTarget(Index: Place.dataKey)
+                        .offset(x: Place.x - (maxScreenLenghth/2), y: Place.y - maxScreenLenghth*(810/1080)/2)
+                }
+                    
+            }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
