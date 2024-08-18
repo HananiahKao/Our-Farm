@@ -27,6 +27,7 @@
 		CB24863E2C58A9D50006AD8E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CB2486402C58AA160006AD8E /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		CB2486422C58AA770006AD8E /* ZoomableScrolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableScrolView.swift; sourceTree = "<group>"; };
+		CBF052DB2C72ACDB0067228C /* Our-Farm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Our-Farm-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		CB24862D2C58A8C60006AD8E /* Our Farm */ = {
 			isa = PBXGroup;
 			children = (
+				CBF052DB2C72ACDB0067228C /* Our-Farm-Info.plist */,
 				CB24862E2C58A8C60006AD8E /* Our_FarmApp.swift */,
 				CB2486302C58A8C60006AD8E /* ContentView.swift */,
 				CB2486422C58AA770006AD8E /* ZoomableScrolView.swift */,
@@ -291,6 +293,7 @@
 				DEVELOPMENT_TEAM = 8S5G23Y9SJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Our-Farm-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +323,7 @@
 				DEVELOPMENT_TEAM = 8S5G23Y9SJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Our-Farm-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
